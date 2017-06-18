@@ -8,6 +8,7 @@ public class Main {
 		
 		TirageAuSort tirageAuSort = new TirageAuSortImpl();
 		
+//		list des choix par utilisateur
 		List<Integer> listChoixUser = tirageAuSort.choisir();
 		System.out.println(listChoixUser);
 		
